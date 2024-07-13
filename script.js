@@ -61,7 +61,7 @@ function checkWinner(){
   }
 
   if(isWon){
-    statusTxt.textContent = `${currentPlayer === x ? 'X' : 'O'} Won!`;
+    statusTxt.textContent = `${currentPlayer === x ? 'You' : 'Computer'} Won!`;
     running = false;
   } 
   else if(!board.includes(0)){
