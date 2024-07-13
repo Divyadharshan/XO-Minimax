@@ -23,7 +23,7 @@ function boxClick(){
   updateBox(this,index);
   checkWinner();
   if(running && currentPlayer===o) {
-    setTimeout(compTurn,500);
+    setTimeout(compTurn,100);
   }
 }
 
